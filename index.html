@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocterNachos - Bio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), 
+                        url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1920') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .header-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header-section h1 {
+            font-size: 2rem;
+            margin: 5px 0;
+        }
+
+        .bio-card {
+            background-color: #bfa01d; /* Gold tint background like your screenshot */
+            padding: 30px;
+            border-radius: 4px;
+            width: 90%;
+            max-width: 450px;
+            box-shadow: 0 0 30px rgba(191, 160, 29, 0.4); /* Glowing aura effect */
+            box-sizing: border-box;
+        }
+
+        .bio-card p {
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-top: 0;
+        }
+
+        .bio-card ul {
+            padding-left: 20px;
+            margin: 15px 0;
+        }
+
+        .bio-card li {
+            margin-bottom: 10px;
+        }
+
+        .btn-contact {
+            display: block;
+            width: 100%;
+            background-color: #e5b800;
+            color: #111;
+            text-align: center;
+            padding: 12px 0;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 4px;
+            margin: 20px 0;
+            box-shadow: 3px 3px 0px #7a6610;
+            transition: transform 0.1s;
+        }
+
+        .btn-contact:active {
+            transform: translate(2px, 2px);
+            box-shadow: 1px 1px 0px #7a6610;
+        }
+
+        .links-title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-links a {
+            color: white;
+            font-size: 1.8rem;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        .social-links a:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-section">
+        <p style="margin:0; font-size: 1.2rem;">Hi, I'm</p>
+        <h1>👋 YourName</h1>
+    </div>
+
+    <div class="bio-card">
+        <p>I make cool things and do random stuff.</p>
+        
+        <ul>
+            <li>💻 I'm a developer utilizing HTML, CSS, and JavaScript.</li>
+            <li>🚀 Working on getting my website up and running via GitHub.</li>
+            <li>✨ Add whatever third point you want here!</li>
+        </ul>
+
+        <a href="mailto:your@email.com" class="btn-contact">Contact Me</a>
+
+        <div class="links-title">Links</div>
+        
+        <div class="social-links">
+            <a href="https://discord.com" target="_blank"><i class="fab fa-discord"></i></a>
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+        </div>
+    </div>
+
+</body>
+</html>
